@@ -1,0 +1,891 @@
+@import url('https://fonts.googleapis.com/css?family=Gabriela');
+@font-face{
+	font-family: 'sensations';
+	src:url('../sensations.ttf');
+}
+body{
+	font-family: sans-serif;
+	color: #999;
+	font-size: 14px;
+	margin:0;
+}
+body
+{
+	background-color: #eaeaea;
+}
+body, html {
+    height: 100%;
+        
+}
+.navbar-default{
+    background-color: #F59FA2;
+    margin-bottom: 0px;
+}
+#lmenu{
+    color:#fffffe;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.row{
+    width: 80%;
+    margin: auto;
+}
+#noPad{
+    padding-right: 0px;
+    padding-left:0px;
+}
+#padL{
+    width:160px;
+    text-align: center;
+}
+
+#lmenu:hover{
+    color:#F59FA2;
+    background-color: #fffffe;
+}
+#cursivoBlanco p{
+    font-family: 'sensations';
+    color: #F59FA2;
+}
+.sandwich{
+    height: 80px;
+    vertical-align: middle;
+}
+#cursivoBlanco{
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    color: #F59FA2;
+    font-family: 'sensations';
+    font-weight: 50;
+    font-size: 75px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 70px;
+}
+#lrosaP{
+    height: 90px;
+    width: 500px;
+    margin-top: 0px;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+#center {
+    position:absolute;
+    margin-left: 45%;
+    background-image: url(../imagenes/logoSolo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 56px;
+    height: 56px;
+    
+}
+article{
+    position:relative;
+    padding: 0px;
+}
+article div {
+    margin:2px;
+}
+article div img
+{
+	width: 100%;
+}
+/**/
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+body { font-family: sans-serif; }
+
+
+.cover{
+    background-image: url(../imagenes/pdest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+#cover{
+    position: absolute;
+    width: 60%;
+    display: table;
+    margin-top: 20%;
+    margin-left: 9%;
+  
+}
+
+/* ---- grid ---- */
+
+.grid {
+  background: #9a8370;
+    width: 80%;
+    margin: auto;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float:left;
+    height: 250px;
+}
+.grid-item-w2 {
+  width:99.999%; 
+}
+.grid-item-w {
+ width: 66.666%; 
+}
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+.grid div img{
+    height: 100%;
+    width: 100%;
+}
+footer{
+    height: 80px;
+    background-color: #F59FA2;
+}
+footer p{
+    text-align: center;
+    font-family: 's';
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFE;
+}
+
+@keyframes saltar{
+    0%{
+        bottom:50px;
+    }
+  
+    100%{
+        bottom: 70px;
+    }
+}
+
+body { font-family: sans-serif; }
+#infochef h1,#Quienes h1, #Historia h1,#Contacto h1,#infocursos h1, #productos h1,#lemenu h1,#carte h1{
+	font-family: 'sensations';
+	font-size: 75px;
+	color: #f59fa2; 
+	text-align: center;
+}
+#Historia h1, #Contacto h1,#lemenu h1{
+	color: #fff;
+	font-size: 100px;
+    transform: translateY(90%);	
+}
+#Historia{
+	display: inline-block;
+	position: relative;
+	background-image: url(../imagenes/Nos.jpg);
+	background-size: 910px 350px;
+	width: 910px;
+	height: 350px;
+	background-repeat: no-repeat;
+	margin-bottom: 0px;
+	margin-top: -40px;
+	z-index: -1;
+}
+#Historia #linea{
+	background-image: url(../imagenes/pink.png);
+	background-size:420px 70px; 
+	z-index: 0;
+	position: absolute;
+	display: block;
+	width: 420px;
+	height: 100px;
+	top: 173px;
+	right: 240px;
+	background-repeat: no-repeat; 
+}
+#Contacto{
+	display: inline-block;
+	position: relative;
+	background-image: url(../imagenes/cont.jpg);
+	background-size: 910px 350px;
+	width: 910px;
+	height: 350px;
+	background-repeat: no-repeat;
+	margin-bottom: 15px;
+	margin-top: -20px;
+	z-index: -1;
+	border: #9Ad7b9 5px solid;	
+}
+#Contacto #linea{
+	background-image: url(../imagenes/pink.png);
+	background-size:300px 70px; 
+	z-index: 0;
+	position: absolute;
+	display: block;
+	width: 420px;
+	height: 100px;
+	top: 177px;
+	right: 170px;
+	background-repeat: no-repeat; 
+}
+#Historia #borde{
+	background-image: url(../imagenes/transicion.png);
+	background-size:915px 150px; 
+	z-index: 0;
+	position: absolute;
+	display: block;
+	width: 912px;
+	height: 150px;
+	top: 300px;
+	right: 0px;
+	background-repeat: no-repeat; 
+}
+#infochef p,#Quienes p, #direccion p,#infocursos p, #productos p{
+	text-align: center;
+	color: #9A8370;
+	font-size: 20px;
+}
+#direccion p{ 
+	text-align: left;
+}
+#direccion{
+	margin-top: 25px;
+}
+#chef{
+	text-indent: -9999px;
+	background-image: url(../imagenes/chef.jpg);
+	background-size: 260px 300px;
+	width: 260px;
+	height: 300px;
+	margin-top: 70px;
+}
+#infochef{
+	width: 650px;
+	margin-top: 50px;
+}
+#mapa{
+
+	margin-bottom: 100px;
+	text-indent: -9999px;
+	background-image: url(../imagenes/mapa.png);
+	background-size: 400px 175px;
+	width: 400px;
+	height: 175px;	
+}
+#lema{
+	margin-top: 30px;
+}
+#lema1{
+	margin-bottom: 0;
+}
+#Quienes{
+	margin-top: 50px;
+	width: 650px;
+	margin-right: 2px;
+}
+#imgdonas{
+	text-indent: -9999px;
+	background-image: url(../imagenes/donuts_opt.png);
+	background-size: 260px 380px;
+	width: 260px;
+	height:  381px;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+	padding-left: 40px;	
+}
+#lema h1,#lema1 h1{
+	text-align: center;
+	font-family: 'sensations';
+	color: #f59fa2;
+	font-size: 75px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+footer{
+	  position: relative;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  padding: 1rem;
+	  background-color: #f59fa2;
+	  text-align: center;
+	  height: 85px;
+}
+footer h4{
+	color: #fff;
+	font-size: 35px;
+	font-weight: normal;
+	padding: 0px 0px 0px;
+	margin: 0;
+	font-family: 'sensations';
+}
+footer div a{
+	position: relative;
+	display: inline-block;
+	width: 24px;
+	height: 25px;
+	text-indent: 100px;
+	overflow: hidden;
+	background-image: url(../imagenes/iconos-sociales.png);
+	background-repeat: no-repeat;
+}
+footer div #flickr
+{
+	background-position: 0px 0px;
+}
+footer div #flickr:hover
+{
+	background-position: 0px -30px;
+}
+footer div #facebook{
+	background-position: -23px 0px;
+}
+footer div #facebook:hover
+{
+	background-position: -23px -30px;
+}
+footer div #cruz{
+	background-position: -46px 0px;
+}
+footer div #cruz:hover{
+	background-position: -46px -30px;
+}
+footer div #twitter{
+	background-position: -69px 0px;
+}
+footer div #twitter:hover{
+	background-position: -69px -30px;
+}
+footer div #google{
+	background-position: -92px 0px;
+}
+footer div #google:hover{
+	background-position: -92px -30px;
+}
+.carousel-caption {
+    position: absolute;
+    top:50px;
+    left: 20px;
+}
+#principal{
+	margin-top: -20px;
+	width: 915px;
+	height: 400px;
+	z-index: -1;
+
+}
+#textoportada h1{
+	font-family: 'sensations';
+	font-size: 50px;
+	color: #eee;
+	text-shadow: 2px 2px #9a8370;
+}
+#textoportada p{
+	font-family: sans-serif;
+	color: #9A8370;
+	font-size: 18px;
+}
+#textoportada{
+	text-align: center;
+	background-color: rgba(255,255,255,0.41);
+	width: 400px;
+	height: auto;
+}
+#ss img{
+	position: absolute;
+	top: 50px;
+	left:250px;
+	width: 400px;
+	height: 215px;
+
+}
+#principal #img1{
+	width: 915px;
+	height: 400px;
+	z-index: -1;
+}
+#boton{
+	background-color: #fffffe;
+	color: #f59fa2;
+	border-radius: 10px;
+	border: solid #f59fa2 1px;'font-family: sans-serif;
+}
+#boton:hover{
+	background-color: #f59fa2;
+	color: #fffffe;
+	border-radius: 10px;
+	border: solid #f59fa2 1px;
+}
+#cursos{
+	background-image: url(../imagenes/macarrons.jpg);
+	background-size: 400px 300px;
+	width: 400px;
+	height: 300px;
+	margin-top: 70px;
+	background-repeat: no-repeat;
+	margin-right: 0;
+	border: solid #f59fa2 6px;
+}
+#imgprod{
+	background-image: url(../imagenes/desintro.jpg);
+	background-size: 270px 270px;
+	width: 270px;
+	height: 270px;
+	margin-top: 70px;
+	background-repeat: no-repeat;
+	margin-right: 0;
+	border: solid #9Ad7b9 6px;
+	margin-bottom: 70px;
+}
+#productos{
+	margin-top: 70px;
+}
+#infocursos{
+	margin-top: 70px;
+	margin-left: 50px;
+}
+#boton{
+	margin-top: 20px;
+	margin-left: 150px;
+}
+#productos #boton{
+	margin-left: 200px;
+}
+#lemenu{
+	display: inline-block;
+	position: relative;
+	background-image: url(../imagenes/elmenu.jpg);
+	background-size: 910px 350px;
+	width: 910px;
+	height: 350px;
+	background-repeat: no-repeat;
+	margin-bottom: 15px;
+	margin-top: -20px;
+	z-index: -1;
+	border: #9Ad7b9 5px solid;	
+}
+#carte #linea{
+	position: absolute;
+	background-image: url(../imagenes/pink.png);
+	background-size: 300px 70px;
+	width: 300px;
+	height:70px;
+	top:60px;
+	right: 300px;
+}
+#Bebidas h1, #Postres h1{
+	font-family: 'sensations';
+	color: #f59fa2;
+	text-align: center;
+	font-size: 60px;
+}
+#Bebidas ul,#Postres ul{
+		text-align: center;
+		font-family: sans-serif;
+		color: #9A8370;
+}
+#Bebidas li, #Postres li{
+	padding-top: 10px;
+}
+#Bebidas,#Postres{
+	width: 456px;
+	margin-bottom: 100px;
+}
+@media screen and (min-width:1px) and (max-width: 767px){
+ 	/*xs*/
+ 	#center { margin-left:auto;}
+    #lmenu{
+    font-size: 20px;
+    }
+    #padL{width: auto;}
+    
+    .grid{
+    width: 95%;
+    margin: auto;
+
+}
+    
+    .cover{
+        width:95%;
+        height: 200px;
+    }
+    #cursivoBlanco{
+    font-size: 50px;
+    line-height: 70px;
+       
+}
+    .sandwich{
+    height: 60px;
+    vertical-align: middle;
+         overflow: hidden;
+}
+    
+    footer p{
+        font-size: 40px;
+        overflow: hidden;
+        max-height: 50px;
+    }	
+ 	#lmenu{
+		display: block;
+		clear: both;
+		width: 100%;
+		text-align: center;
+		padding:12px 20px;
+	}
+	header nav{
+		display: none;
+	}
+	#infochef h1,#Quienes h1, #Historia h1,#Contacto h1,#infocursos h1, #productos h1,#lemenu h1,#carte h1{
+		font-family: 'sensations';
+		font-size: 60px;
+		color: #f59fa2; 
+		text-align: center;
+	}
+	#Contacto h1{
+		color: #fffffe;
+	}
+	#direccion p{
+		margin-top: 150px;
+		font-size: 14px;
+	}
+	#Contacto #mapa{
+		margin-bottom: 50px;
+	}
+	#lema1 h1{
+		font-size: 55px;
+	}
+	#Contacto{
+		display: inline-block;
+		position: relative;
+		background-image: url(../imagenes/cont.jpg);
+		background-size: 350px 200px;
+		width: 350px;
+		height: 200px;
+		background-repeat: no-repeat;
+		margin-bottom: 15px;
+		margin-top: -20px;
+		z-index: -1;
+		border: #9Ad7b9 5px solid;	
+	}
+	#mapa{
+		margin-bottom: 100px;
+		text-indent: -9999px;
+		background-image: url(../imagenes/mapa.png);
+		background-size: 350px 150px;
+		width: 350px;
+		height: 150px;	
+	}
+	#lemenu h1{
+		color: #fffffe;
+	}
+	#lemenu{
+	display: inline-block;
+	position: relative;
+	background-image: url(../imagenes/elmenu.jpg);
+	background-size: 400px 150px;
+	width: 400px;
+	height: 150px;
+	background-repeat: no-repeat;
+	margin-bottom: 15px;
+	margin-top: -20px;
+	z-index: -1;
+	border: #9Ad7b9 5px solid;	
+	}
+	#Contacto h1,#Historia h1{
+		color: #fffffe;
+	}
+	#Quienes h1,#infochef h1{
+		font-size: 55px;
+		text-align: left;
+	}
+	#Quienes p,#infochef p{
+		font-size: 12px;
+		width: 450px;
+	}	
+	#Historia{
+		display: inline-block;
+		position: relative;
+		background-image: url(../imagenes/Nos.jpg);
+		background-size: 450px 150px;
+		width: 450px;
+		height: 150px;
+		background-repeat: no-repeat;
+		margin-bottom: 0px;
+		margin-top: -40px;
+		z-index: -1;
+	}
+	#chef{
+		text-indent: -9999px;
+		background-image: url(../imagenes/chef.jpg);
+		background-size: 300px 200px;
+		width: 300px;
+		height: 200px;
+		margin-top: 70px;
+		margin-bottom: -50px;
+	}
+	#productos #boton{
+		margin-bottom: 50px;
+		margin-left: 150px;
+	}
+	#infocursos #boton{
+		margin-left: 125px;
+	}
+	#textoportada h1{
+	font-family: 'sensations';
+	font-size: 50px;
+	color: #f59fa2;
+	text-shadow: 2px 2px #9a8370;
+	}
+	#textoportada p{
+		font-family: sans-serif;
+		color: #9A8370;
+		font-size: 18px;
+	}
+	#textoportada{
+		margin-left: 70px;
+		text-align: center;
+		background-color: rgba(255,255,255,0.41);
+		width: 400px;
+		height: auto;
+	}
+	#lema h1{
+		font-size: 55px;
+	}
+	/*header #contenedor-menu:hover nav{
+		display: block;
+	}*/
+}
+@media screen and (min-width:768px) and (max-width: 991px){
+	/*sm*/
+	#lmenu{
+		text-align: center;}
+		
+	#lmenu{
+		display: block;
+		clear: both;
+		width: 100%;
+		text-align: center;
+		padding:12px 20px;
+	}
+	header nav{
+		display: none;
+	}
+	#infochef h1,#Quienes h1, #Historia h1,#Contacto h1,#infocursos h1, #productos h1,#lemenu h1,#carte h1{
+		font-family: 'sensations';
+		font-size: 60px;
+		color: #f59fa2; 
+		text-align: center;
+	}
+	#Contacto h1{
+		color: #fffffe;
+	}
+	#direccion p{
+		margin-top: 150px;
+		font-size: 14px;
+	}
+	#Contacto #mapa{
+		margin-bottom: 50px;
+	}
+	#lema1 h1{
+		font-size: 55px;
+	}
+	#Contacto{
+		display: inline-block;
+		position: relative;
+		background-image: url(../imagenes/cont.jpg);
+		background-size: 350px 200px;
+		width: 350px;
+		height: 200px;
+		background-repeat: no-repeat;
+		margin-bottom: 15px;
+		margin-top: -20px;
+		z-index: -1;
+		border: #9Ad7b9 5px solid;	
+	}
+	#mapa{
+		margin-bottom: 100px;
+		text-indent: -9999px;
+		background-image: url(../imagenes/mapa.png);
+		background-size: 350px 150px;
+		width: 350px;
+		height: 150px;	
+	}
+	
+	#lemenu{
+	display: inline-block;
+	position: relative;
+	background-image: url(../imagenes/elmenu.jpg);
+	background-size: 600px 250px;
+	width: 600px;
+	height: 250px;
+	background-repeat: no-repeat;
+	margin-bottom: 15px;
+	margin-top: -20px;
+	z-index: -1;
+	border: #9Ad7b9 5px solid;	
+	}
+	
+	#Quienes h1,#infochef h1{
+		font-size: 65px;
+		text-align: left;
+	}
+	#Quienes p,#infochef p{
+		font-size: 15px;
+		width: 400px;
+	}	
+	#Historia{
+		display: inline-block;
+		position: relative;
+		background-image: url(../imagenes/Nos.jpg);
+		background-size: 650px 250px;
+		width: 650px;
+		height: 250px;
+		background-repeat: no-repeat;
+		margin-bottom: 0px;
+		margin-top: -40px;
+		z-index: -1;
+	}
+	#chef{
+		text-indent: -9999px;
+		background-image: url(../imagenes/chef.jpg);
+		background-size: 200px 300px;
+		width: 200px;
+		height: 300px;
+		margin-top: 70px;
+		margin-bottom: -50px;
+	}
+	#productos #boton{
+		margin-bottom: 50px;
+		margin-left: 100px;
+	}
+	#infocursos #boton{
+		margin-left: 100px;
+	}
+	#cursos
+	{
+		margin-left: 125px;
+	}
+	#infocursos p, #productos p{
+		font-size: 15px;
+	}
+	#infocursos h1, #productos h1{
+		font-size: 65px;	
+	}
+	#infocursos,#productos{
+		margin-left: 200px;	
+	}
+	#textoportada h1{
+		font-family: 'sensations';
+		font-size: 50px;
+		color: #f59fa2;
+		text-shadow: 2px 2px #9a8370;
+	}	
+	#textoportada p{
+		font-family: sans-serif;
+		color: #9A8370;
+		font-size: 18px;
+	}
+	#textoportada{
+		margin-left: 225px;
+		text-align: center;
+		background-color: rgba(255,255,255,0.41);
+		width: 400px;
+		height: auto;
+	}
+	#lema h1{
+		font-size: 65px;
+	}
+	/*header #contenedor-menu:hover nav{
+		display: block;
+	}*/
+	#infochef h1,#Quienes h1, #Historia h1,#Contacto h1,#infocursos h1, #productos h1,#lemenu h1,#carte h1{
+		font-family: 'sensations';
+		font-size: 70px;
+		color: #f59fa2; 
+		text-align: center;
+	}
+	#Contacto h1,#Historia h1{
+		color: #fffffe;
+	}
+	#lemenu h1{
+		color: #fffffe;
+	}
+	#direccion p{
+		margin-top: 10px;
+		font-size: 20px;
+	}
+	#Contacto #mapa{
+		margin-bottom: 50px;
+	}
+	#lema1 h1{
+		font-size: 55px;
+		margin-bottom: 10px;
+	}
+	#Contacto{
+		display: inline-block;
+		position: relative;
+		background-image: url(../imagenes/cont.jpg);
+		background-size: 600px 200px;
+		width: 600px;
+		height: 200px;
+		background-repeat: no-repeat;
+		margin-bottom: 15px;
+		margin-top: -20px;
+		z-index: -1;
+		border: #9Ad7b9 5px solid;	
+	}
+	#mapa{
+		margin-bottom: 100px;
+		text-indent: -9999px;
+		background-image: url(../imagenes/mapa.png);
+		background-size: 350px 150px;
+		width: 350px;
+		height: 150px;	
+	}
+	#padL{
+       width: 130px;
+    }
+}
+@media screen and (min-width:992px) and (max-width: 1199px){
+	/*md*/
+	header nav{
+		text-align: center;
+	}
+}
+@media screen and (min-width:1199px){
+	/*lg*/
+	header nav{
+		text-align: center;
+	}
+	#lmenu{
+    font-size: 20px;
+    }
+    #center {
+    width: 70px;
+    height: 70px;
+    
+	}
+    
+    .grid{
+    width: 1000px;
+    margin: auto;
+    }
+    .cover{
+        width:1000px;
+    }
+}
